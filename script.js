@@ -41,29 +41,6 @@ let playRound = (playerSelection, computerSelection) => {
 
 }
 
-// for (let i = 0; i < 5; i++) {
-//     randomIndexNumber = Math.floor(Math.random() * weapon.length);
-//     playerInput = prompt("Please enter your weapon: ").toLowerCase();
-//     computerPlay = weapon[randomIndexNumber];
-//     console.log(playRound(playerInput, computerPlay));
-// }
-
-// let decidingGame = (userScore, computerScore) => {
-//     randomIndexNumber = Math.floor(Math.random() * weapon.length);
-//     playerInput = prompt("Please enter your weapon: ").toLowerCase();
-//     computerPlay = weapon[randomIndexNumber];
-//     console.log(playRound(playerInput, computerPlay));
-// }
-// while (userScore == computerScore) {
-//     decidingGame(userScore, computerScore);
-// }
-
-// if (userScore > computerScore) {
-//     console.log("You win the BEST OF 5!!! Congratulations!")
-// } else if (userScore < computerScore) {
-//     console.log(`Computer wins the BEST OF 5!!! Better luck next time!`);
-// }
-
 let section1 = document.querySelector('.container-1')
 let section1Item1 = document.querySelector('.container-1 .item-1');
 let section2 = document.querySelector('.container-2');
