@@ -17,12 +17,24 @@ body {
 button {
     padding: 16px 48px;
     font-size: 32px;
+    transition: all 0.1s;
+    border-radius: 8px;
+}
+
+.rock:hover{
+    background-color: rgb(100, 51, 15);
 }
 
 .container-1 .item-1 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    gap: 200px;
+}
+
+.container-1 .item-1 h1:nth-child(2){
+    position: fixed;
+    color: red;
 }
 
 .container-2 .item-1 {
@@ -36,13 +48,26 @@ button {
     background-color: chocolate;
 }
 
+.container-2 .rock:hover{
+    background-color: rgb(100, 51, 15);
+}
+
 .container-2 .paper {
     background-color: white;
+}
+
+.container-2 .paper:hover {
+    background-color: rgb(185, 185, 185);
 }
 
 .container-2 .scissors {
     color: white;
     background-color: green;
+}
+
+.container-2 .scissors:hover {
+    color: white;
+    background-color: rgb(1, 87, 1);
 }
 
 .container-3 {
