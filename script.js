@@ -96,8 +96,10 @@ weaponButtons.forEach(weapon => {
             let heading1 = document.createElement('h1');
             
             section1.appendChild(heading1);
-            if(userScore > computerScore) heading1.textContent = 'You win the BEST OF 5!!! Congratulations!';
-            else heading1.textContent = 'Computer wins the BEST OF 5!!! Better luck next time!';
+            heading1.style.cssText = 'display:flex; justify-content:center;';
+
+            if(userScore > computerScore) heading1.textContent = 'You reached 5 points!!! Congratulations on winning!';
+            else heading1.textContent = 'Computer reached 5 points!!! Better luck next time!';
         }
     });
 });
